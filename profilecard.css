@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+    background-color:hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.container{
+    width: 350px;
+    height: auto;
+    border: 1px solid;
+    border-radius: 15px;
+    border-style: none;
+    background-color: white;
+
+}
+
+.topbackground img{
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+.body{
+    text-align: center;
+}
+
+.bodyp{
+    margin-top: 15px;
+}
+.bodyp p{
+    color: hsl(0, 0%, 59%);
+    margin-top: 7px;
+    font-size: 14px;
+}
+.name{
+    font-weight: 700;
+}
+
+.side{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.pic img{
+    border-radius: 100%;
+    border: 5px solid white;
+    margin-top: -50px;
+}
+
+
+.line hr{
+    margin-top:35px;
+    border: none;
+    height: 1px;
+    background-color: rgb(225, 225, 225);
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.folcount{
+    font-weight: 700;
+}
+.likcount{
+    font-weight: 700;
+}
+.ricount{
+    font-weight: 700;
+}
+
+.fol{
+    margin-top: -10px;
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.lik{
+    margin-top: -10px;
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.ri{
+    margin-top: -10px;
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+}
